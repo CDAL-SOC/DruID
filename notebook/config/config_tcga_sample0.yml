@@ -1,0 +1,11 @@
+model: DruID
+
+batch_size: 256
+epochs: 100
+moo: CS   # options: CS, LS, ST, EPO
+inv_preference: [0.1,1]
+
+seed: 0
+device: 0
+
+valid_interval: 100
